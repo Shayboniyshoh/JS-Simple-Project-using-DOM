@@ -1,0 +1,136 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+body {
+    background-color: #ccc;
+    margin-top: 100px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button {
+    display: none;
+    padding: 15px;
+    background-color: rgb(95, 25, 25);
+    color: #fff;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: 0.4s ease;
+    animation: btnButton 1.5s;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 10px;
+    outline: none;
+}
+@keyframes btnButton {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.button:hover {
+    background-color: rgb(143, 63, 63);
+}
+.modal {
+    display: none;
+    width: 50%;
+    text-align: justify;
+    margin: 100px auto;
+    background-color: rgb(112, 3, 3);
+    color: #fff;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgb(143, 63, 63);
+    border-radius: 10px;
+    animation-name: modalOpen;
+    animation-duration: 1s;
+}
+@keyframes modalOpen {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.modal h2 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+.modal p {
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.btn {
+    margin: 20px;
+    letter-spacing: 2px;
+    padding: 15px;
+    background-color: rgb(95, 25, 25);
+    color: #fff;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: 0.4s ease;
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(143, 63, 63);
+}
+.button3 {
+    display: none;
+    margin: 20px;
+    letter-spacing: 2px;
+    padding: 15px;
+    background-color: rgb(95, 25, 25);
+    color: #fff;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: 0.4s ease;
+    outline: none;
+    cursor: pointer;
+    animation: button33 1.5s;
+}
+@keyframes button33 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.button3:hover {
+    background-color: rgb(143, 63, 63);
+}
+.button4 {
+    display: none;
+    margin: 20px;
+    letter-spacing: 2px;
+    padding: 15px;
+    background-color: rgb(95, 25, 25);
+    color: #fff;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: 0.4s ease;
+    outline: none;
+    cursor: pointer;
+    animation: button44 1.5s;
+}
+@keyframes button44 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.button4:hover {
+    background-color: rgb(143, 63, 63);
+}
